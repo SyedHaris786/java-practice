@@ -19,6 +19,12 @@ public Computer (int l){
     public void overriding () {
         System.out.println("OverRide me please!! ");
     }
+
+
+    public final void finale () {
+        //THis is a constant method it could not be redefined in the inherited classes also
+        System.out.print("I am Final!! ");
+    }
 }
 
 class Computer2 extends Computer {
@@ -54,8 +60,17 @@ class Computer2 extends Computer {
         
         System.out.println("OverRideddd!!" + a);
         }
+
 }
 
+// final keyword with class is used to define a class which can not be extended or inherited
+
+final class test {
+    
+    public void hell () {
+        System.out.print("THis is final class ");
+    }
+}
 
 /////=============================================== Main Class ===============================================//
 public class inheritence {

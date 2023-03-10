@@ -1,5 +1,4 @@
-
-
+//Thi is the encapsulation practice in whichs we studiied  about the getters and setters and the private key word
 class encap {
 
    private int a ; 
@@ -24,7 +23,6 @@ class encap {
 
 
 }
-
 
 
 public class Encapsulation {

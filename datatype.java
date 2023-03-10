@@ -89,7 +89,13 @@ public class datatype {
 
 
 
-    
+//FInal is used to define a constant variable 
+//the value of final can be defined when initialized or it can be defined later, but after the first definintion it will be its constant value
+
+
+final double val;
+val = 123f;
+
 
 }
 }
